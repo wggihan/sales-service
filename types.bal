@@ -7,7 +7,7 @@ public type SalesRequest record {
 
 public type ItemDetail record {
     string name;
-    decimal price;
+    decimal itemPrice;
     int quantity;
 };
 

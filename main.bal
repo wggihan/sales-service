@@ -1,6 +1,6 @@
 import ballerina/http;
 
-service /salesservice on new http:Listener(8090) {
+service /salesservice on new http:Listener(8091) {
 
     resource function post sales(http:Caller caller, http:Request request) returns error? {
         
